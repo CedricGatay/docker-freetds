@@ -1,9 +1,10 @@
-FROM alpine:3.4
+FROM debian:jessie
 
 MAINTAINER Cedric Gatay <c.gatay@code-troopers.com>
 
-RUN apk update && \
-    apk add freetds bash && \
-    rm -rf /var/cache/apk/*
+MAINTAINER Cedric Gatay <c.gatay@code-troopers.com>
+
+# FreeTDS to allow sourcing of sql dump
+RUN apt-get update && apt-get install -yq freetds-bin bash
 
 VOLUME /app
