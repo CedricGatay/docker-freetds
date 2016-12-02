@@ -1,0 +1,5 @@
+# Freetds docker image
+
+Basic freetds docker image.
+One can mount a directory into the app volume for content sharing.
+Features bash installed to allow better scriptability
