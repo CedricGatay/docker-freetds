@@ -1,5 +1,11 @@
 # Freetds docker image
 
+
+image:https://images.microbadger.com/badges/image/cgatay/freetds.svg[Get your own image badge on microbadger.com,link=https://microbadger.com/images/cgatay/freetds]
+image:https://images.microbadger.com/badges/version/cgatay/freetds.svg[Get your own image badge on microbadger.com, link=https://microbadger.com/images/cgatay/freetds "Get your own version badge on microbadger.com"]
+
 Basic freetds docker image.
+
 One can mount a directory into the app volume for content sharing.
+
 Features bash installed to allow better scriptability
